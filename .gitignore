@@ -1,0 +1,13 @@
+
+de_modules
+.idea
+# Logs
+logs
+*.log
+# source
+.nyc_output
+coverage
+src/test.js
+.gitlab-ci.yml
+Dockerfile
+
