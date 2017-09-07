@@ -1,6 +1,6 @@
 {
   "name": "vnti18n",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Multi language lib",
   "main": "index.js",
   "scripts": {
