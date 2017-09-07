@@ -1,5 +1,5 @@
 let en = {
-    'hello %s': 'Hello %s'
+    'hello %s': 'Hello %s %s'
 }
 
 module.exports = en
