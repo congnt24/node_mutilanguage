@@ -33,7 +33,7 @@ i18n.locales.en = require('./en')
 ```javascript
 console.log(i18n.get('en', 'hello %s', 'cong'))
 //or
-console.log('hello %s'.localize('vi'))
+console.log('hello %s'.localize('vi', 'cong'))
 ```
 
 
