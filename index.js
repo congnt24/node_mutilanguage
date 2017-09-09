@@ -9,5 +9,11 @@ let i18n = {
 String.prototype.localize = function (lang, ...args) {
     return i18n.get(lang, this, ...args)
 };
-module.exports = i18n;
+String.prototype.vi = function (...args) {
+    return i18n.get('vi', this, ...args)
+};
+String.prototype.en = function (...args) {
+    return i18n.get('en', this, ...args)
+};
 
+module.exports = i18n;
