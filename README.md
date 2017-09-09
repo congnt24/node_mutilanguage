@@ -26,6 +26,7 @@ let i18n = require('vnti18n')
 //config
 i18n.locales.vi = require('./vi')
 i18n.locales.en = require('./en')
+ ... and more
 ```
 
 3. Usage
