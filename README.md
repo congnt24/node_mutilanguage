@@ -1,5 +1,9 @@
 USAGE
 
+```javascript
+npm install vnti18n
+```
+
 1. Define language
 
 Each language, you need to create a js file that contain an object.
