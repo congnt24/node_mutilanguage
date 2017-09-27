@@ -38,6 +38,11 @@ i18n.addLanguage('vi', __dirname+'/data/vi');
 //When you need reload data, just call
 i18n.reloadData();
 
+//To handle error when note have key
+i18n.onError = function (key) {
+    console.log("Cannot find key: "+ key)
+}
+
  ... and more
 ```
 
