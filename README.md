@@ -28,8 +28,16 @@ module.exports = en
 ```javascript
 let i18n = require('vnti18n')
 //config
-i18n.locales.vi = require('./vi')
-i18n.locales.en = require('./en')
+i18n.locales.vi = require('./data/vi')
+i18n.locales.en = require('./data/en')
+
+//If you need you file can reloadable, using addLanguage instead
+
+i18n.addLanguage('en', __dirname+'/data/en');
+i18n.addLanguage('vi', __dirname+'/data/vi');
+//When you need reload data, just call
+i18n.reloadData();
+
  ... and more
 ```
 
